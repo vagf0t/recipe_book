@@ -1,0 +1,17 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: recipes_book_development
+  host: localhost
+  pool: 5
+  username: recipes_book
+  password: r3c1p35_b00k
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: recipes_book__test
+  host: localhost
+  pool: 5
+  username: recipes_book
+  password: r3c1p35_b00k
